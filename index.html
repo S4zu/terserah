@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs ini tidak dapat dijangkau</title>
+    <style>
+        /* Resetting default styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #202124;
+            color: #9aa0a6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container styling */
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+
+        /* Error icon */
+        .error-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 20px;
+        }
+
+        /* Heading and description */
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #e8eaed;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        /* Reload button */
+        .reload-button {
+            margin-top: 20px;
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .reload-button:hover {
+            background-color: #1565c0;
+        }
+
+        /* Details link */
+        .details-link {
+            margin-top: 15px;
+            display: block;
+            font-size: 14px;
+            color: #8ab4f8;
+            text-decoration: none;
+        }
+
+        .details-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Address text */
+        .error-details {
+            margin: 15px 0;
+        }
+
+        .error-details strong {
+            color: #e8eaed;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/64?text=:(" alt="Error icon" class="error-icon">
+        <h1>Situs ini tidak dapat dijangkau</h1>
+        <p><strong>lunatics-stresser.my.id</strong> membutuhkan terlalu banyak waktu untuk merespons.</p>
+        <div class="error-details">
+            <p>Coba:</p>
+            <p>Periksa sambungan</p>
+        </div>
+        <p>ERR_CONNECTION_TIMED_OUT</p>
+        <button class="reload-button" onclick="location.reload()">Muat ulang</button>
+        <a href="#" class="details-link">Detail</a>
+    </div>
+</body>
+</html>
